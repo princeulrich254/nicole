@@ -1,0 +1,99 @@
+@import url('./components/font.css');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar {
+    width: 96%;
+    height: 80px;
+    background-color: orange;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo-name{
+    font-size: 24px;
+    padding: 0 10px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 900;
+}
+.nav-links {
+    list-style: none;
+    display : flex;
+    gap : 80px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+main{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(235, 202, 143);
+    padding: 10px;
+}
+.section-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 300px;
+    
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.hero-image img{
+    width: 450px;
+    border-radius: 20px;
+}
+.hero-text{
+    padding: 20px;
+    width: 600px;
+}
+.hero-text h1{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 900;
+}
+.hero-text ul,
+.hero-text p{
+    font-size: 20px;
+    color: #000000;
+}
+.btn{
+    background-color: orange;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid orange;
+    transition: 0.3s;
+}
